@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.6.33712.159
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurandalSolutionTemplate", "DurandalSolutionTemplate\DurandalSolutionTemplate.csproj", "{2B94934F-7887-4A16-B71E-F1DD23794F3B}"
-EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ExpressProject1", "ExpressProject1\ExpressProject1.esproj", "{3C38D637-208E-431D-9E13-7D4FE45D4776}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{8CBF5C5E-F034-4D84-ABF5-D1B37621FA33}"
 EndProject
@@ -23,12 +21,6 @@ Global
 		{2B94934F-7887-4A16-B71E-F1DD23794F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B94934F-7887-4A16-B71E-F1DD23794F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B94934F-7887-4A16-B71E-F1DD23794F3B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3C38D637-208E-431D-9E13-7D4FE45D4776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C38D637-208E-431D-9E13-7D4FE45D4776}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C38D637-208E-431D-9E13-7D4FE45D4776}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{3C38D637-208E-431D-9E13-7D4FE45D4776}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C38D637-208E-431D-9E13-7D4FE45D4776}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3C38D637-208E-431D-9E13-7D4FE45D4776}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{8CBF5C5E-F034-4D84-ABF5-D1B37621FA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8CBF5C5E-F034-4D84-ABF5-D1B37621FA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CBF5C5E-F034-4D84-ABF5-D1B37621FA33}.Release|Any CPU.ActiveCfg = Release|Any CPU

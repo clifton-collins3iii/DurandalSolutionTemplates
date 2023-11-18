@@ -3,14 +3,17 @@
         'text': '../Scripts/text',
         'durandal': '../Scripts/durandal',
         'plugins': '../Scripts/durandal/plugins',
-        'transitions': '../Scripts/durandal/transitions'
+        'transitions': '../Scripts/durandal/transitions',
+        'jquery': '../Scripts/jquery-1.9.1',
+        'knockout': '../Scripts/knockout-3.4.0'
     }
 });
 
-define('jquery', function() { return jQuery; });
-define('knockout', ko);
+//define('jquery', function() { return jQuery; });
+//define('knockout', ko);
 
-define(['durandal/system', 'durandal/app', 'durandal/viewLocator'],  function (system, app, viewLocator) {
+define(['durandal/system', 'durandal/app', 'durandal/viewLocator', 'jquery', 'knockout'],
+    function (system, app, viewLocator, $, ko) {
     //>>excludeStart("build", true);
     system.debug(true);
     //>>excludeEnd("build");
